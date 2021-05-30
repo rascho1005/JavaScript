@@ -1,0 +1,13 @@
+let niz = [1, 'dva', 3, 102];
+
+niz.forEach(element => {
+	console.log(element);
+});
+
+niz.forEach((element, index) =>{
+	console.log('Element ${element} se nalazi na poziciji ${index}');
+    });
+    
+niz.forEach((element, index, nizRef) => {
+	console.log('Element ${element} se nalazi na poziciji ${index} u nizu [${nizRef}]');
+});
